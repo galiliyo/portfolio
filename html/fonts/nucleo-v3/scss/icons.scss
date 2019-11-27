@@ -1,0 +1,138 @@
+/*------------------------
+	icons
+-------------------------*/
+@function unicode($str) {
+  @return unquote("\"\\#{$str}\"");
+}
+
+$strln-021-facebook: unicode(ea01);
+$strln-038-github: unicode(ea02);
+$strln-045-linkedin: unicode(ea03);
+$strln-arrow-down: unicode(ea05);
+$strln-arrow-up: unicode(ea04);
+$strln-coffee-cup-hot: unicode(ea06);
+$strln-coffee-cup: unicode(ea07);
+$strln-developer-community-github-1: unicode(ea08);
+$strln-email-action-unread: unicode(ea09);
+$strln-measure-ruler-divider: unicode(ea0a);
+$strln-monitor-user: unicode(ea0b);
+$strln-navigation-menu-horizontal: unicode(ea0c);
+$strln-navigation-menu: unicode(ea0d);
+$strln-password-desktop-approved: unicode(ea0e);
+$strln-phone: unicode(ea0f);
+$strln-professional-network-linkedin: unicode(ea10);
+$strln-programming-browser-1: unicode(ea11);
+$strln-programming-browser: unicode(ea12);
+$strln-programming-hold-code-2: unicode(ea13);
+$strln-responsive-design-1: unicode(ea14);
+$strln-send-email-2: unicode(ea15);
+$strln-single-man-actions-laptop-2: unicode(ea16);
+$strln-single-man-actions-laptop: unicode(ea17);
+$strln-social-media-facebook-1: unicode(ea18);
+$strln-social-media-facebook: unicode(ea19);
+$strln-zoom-in-1: unicode(ea1a);
+
+.strln-021-facebook::before {
+  content: $strln-021-facebook;
+}
+
+.strln-038-github::before {
+  content: $strln-038-github;
+}
+
+.strln-045-linkedin::before {
+  content: $strln-045-linkedin;
+}
+
+.strln-arrow-down::before {
+  content: $strln-arrow-down;
+}
+
+.strln-arrow-up::before {
+  content: $strln-arrow-up;
+}
+
+.strln-coffee-cup-hot::before {
+  content: $strln-coffee-cup-hot;
+}
+
+.strln-coffee-cup::before {
+  content: $strln-coffee-cup;
+}
+
+.strln-developer-community-github-1::before {
+  content: $strln-developer-community-github-1;
+}
+
+.strln-email-action-unread::before {
+  content: $strln-email-action-unread;
+}
+
+.strln-measure-ruler-divider::before {
+  content: $strln-measure-ruler-divider;
+}
+
+.strln-monitor-user::before {
+  content: $strln-monitor-user;
+}
+
+.strln-navigation-menu-horizontal::before {
+  content: $strln-navigation-menu-horizontal;
+}
+
+.strln-navigation-menu::before {
+  content: $strln-navigation-menu;
+}
+
+.strln-password-desktop-approved::before {
+  content: $strln-password-desktop-approved;
+}
+
+.strln-phone::before {
+  content: $strln-phone;
+}
+
+.strln-professional-network-linkedin::before {
+  content: $strln-professional-network-linkedin;
+}
+
+.strln-programming-browser-1::before {
+  content: $strln-programming-browser-1;
+}
+
+.strln-programming-browser::before {
+  content: $strln-programming-browser;
+}
+
+.strln-programming-hold-code-2::before {
+  content: $strln-programming-hold-code-2;
+}
+
+.strln-responsive-design-1::before {
+  content: $strln-responsive-design-1;
+}
+
+.strln-send-email-2::before {
+  content: $strln-send-email-2;
+}
+
+.strln-single-man-actions-laptop-2::before {
+  content: $strln-single-man-actions-laptop-2;
+}
+
+.strln-single-man-actions-laptop::before {
+  content: $strln-single-man-actions-laptop;
+}
+
+.strln-social-media-facebook-1::before {
+  content: $strln-social-media-facebook-1;
+}
+
+.strln-social-media-facebook::before {
+  content: $strln-social-media-facebook;
+}
+
+.strln-zoom-in-1::before {
+  content: $strln-zoom-in-1;
+}
+

@@ -1,0 +1,260 @@
+/*--------------------------------
+
+Streamline Web Font
+Generated using nucleoapp.com
+
+-------------------------------- */
+@font-face {
+  font-family: 'Streamline';
+  src: url('../fonts/Streamline.eot');
+  src: url('../fonts/Streamline.eot') format('embedded-opentype'), url('../fonts/Streamline.woff2') format('woff2'), url('../fonts/Streamline.woff') format('woff'), url('../fonts/Streamline.ttf') format('truetype'), url('../fonts/Streamline.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/*------------------------
+	base class definition
+-------------------------*/
+.strln-icon {
+  display: inline-block;
+  font: normal normal normal 1em/1 'Streamline';
+  speak: none;
+  text-transform: none;
+  /* Better Font Rendering */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/*------------------------
+  change icon size
+-------------------------*/
+/* relative units */
+.strln-icon-sm {
+  font-size: 0.8em;
+}
+.strln-icon-lg {
+  font-size: 1.2em;
+}
+/* absolute units */
+.strln-icon-16 {
+  font-size: 16px;
+}
+.strln-icon-32 {
+  font-size: 32px;
+}
+/*----------------------------------
+  add a square/circle background
+-----------------------------------*/
+.strln-icon-bg-square,
+.strln-icon-bg-circle {
+  padding: 0.35em;
+  background-color: #eee;
+}
+.strln-icon-bg-circle {
+  border-radius: 50%;
+}
+/*------------------------------------
+  use icons as list item markers
+-------------------------------------*/
+.strln-icon-ul {
+  padding-left: 0;
+  list-style-type: none;
+}
+.strln-icon-ul > li {
+  display: flex;
+  align-items: flex-start;
+  line-height: 1.4;
+}
+.strln-icon-ul > li > .strln-icon {
+  margin-right: 0.4em;
+  line-height: inherit;
+}
+/*------------------------
+  spinning icons
+-------------------------*/
+.strln-icon-is-spinning {
+  -webkit-animation: strln-icon-spin 2s infinite linear;
+  -moz-animation: strln-icon-spin 2s infinite linear;
+  animation: strln-icon-spin 2s infinite linear;
+}
+@-webkit-keyframes strln-icon-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@-moz-keyframes strln-icon-spin {
+  0% {
+    -moz-transform: rotate(0deg);
+  }
+  100% {
+    -moz-transform: rotate(360deg);
+  }
+}
+@keyframes strln-icon-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+/*------------------------
+  rotated/flipped icons
+-------------------------*/
+.strln-icon-rotate-90 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+.strln-icon-rotate-180 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+.strln-icon-rotate-270 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  -webkit-transform: rotate(270deg);
+  -moz-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
+.strln-icon-flip-y {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);
+  -webkit-transform: scale(-1, 1);
+  -moz-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  -o-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+}
+.strln-icon-flip-x {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+  -webkit-transform: scale(1, -1);
+  -moz-transform: scale(1, -1);
+  -ms-transform: scale(1, -1);
+  -o-transform: scale(1, -1);
+  transform: scale(1, -1);
+}
+/*------------------------
+	icons
+-------------------------*/
+
+.strln-021-facebook::before {
+  content: "\ea01";
+}
+
+.strln-038-github::before {
+  content: "\ea02";
+}
+
+.strln-045-linkedin::before {
+  content: "\ea03";
+}
+
+.strln-arrow-down::before {
+  content: "\ea05";
+}
+
+.strln-arrow-up::before {
+  content: "\ea04";
+}
+
+.strln-coffee-cup-hot::before {
+  content: "\ea06";
+}
+
+.strln-coffee-cup::before {
+  content: "\ea07";
+}
+
+.strln-developer-community-github-1::before {
+  content: "\ea08";
+}
+
+.strln-email-action-unread::before {
+  content: "\ea09";
+}
+
+.strln-measure-ruler-divider::before {
+  content: "\ea0a";
+}
+
+.strln-monitor-user::before {
+  content: "\ea0b";
+}
+
+.strln-navigation-menu-horizontal::before {
+  content: "\ea0c";
+}
+
+.strln-navigation-menu::before {
+  content: "\ea0d";
+}
+
+.strln-password-desktop-approved::before {
+  content: "\ea0e";
+}
+
+.strln-phone::before {
+  content: "\ea0f";
+}
+
+.strln-professional-network-linkedin::before {
+  content: "\ea10";
+}
+
+.strln-programming-browser-1::before {
+  content: "\ea11";
+}
+
+.strln-programming-browser::before {
+  content: "\ea12";
+}
+
+.strln-programming-hold-code-2::before {
+  content: "\ea13";
+}
+
+.strln-responsive-design-1::before {
+  content: "\ea14";
+}
+
+.strln-send-email-2::before {
+  content: "\ea15";
+}
+
+.strln-single-man-actions-laptop-2::before {
+  content: "\ea16";
+}
+
+.strln-single-man-actions-laptop::before {
+  content: "\ea17";
+}
+
+.strln-social-media-facebook-1::before {
+  content: "\ea18";
+}
+
+.strln-social-media-facebook::before {
+  content: "\ea19";
+}
+
+.strln-zoom-in-1::before {
+  content: "\ea1a";
+}
+

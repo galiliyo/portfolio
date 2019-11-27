@@ -1,0 +1,63 @@
+/*------------------------
+	icons
+-------------------------*/
+@function unicode($str) {
+  @return unquote("\"\\#{$str}\"");
+}
+
+$nuc-email-action-unread: unicode(ea01);
+$nuc-measure-ruler-divider: unicode(ea02);
+$nuc-monitor-user: unicode(ea03);
+$nuc-navigation-menu-horizontal: unicode(ea05);
+$nuc-navigation-menu: unicode(ea04);
+$nuc-password-desktop-approved: unicode(ea07);
+$nuc-phone: unicode(ea06);
+$nuc-programming-hold-code-2: unicode(ea08);
+$nuc-send-email-2: unicode(ea09);
+$nuc-single-man-actions-laptop-2: unicode(ea0a);
+$nuc-single-man-actions-laptop: unicode(ea0b);
+
+.nuc-email-action-unread::before {
+  content: $nuc-email-action-unread;
+}
+
+.nuc-measure-ruler-divider::before {
+  content: $nuc-measure-ruler-divider;
+}
+
+.nuc-monitor-user::before {
+  content: $nuc-monitor-user;
+}
+
+.nuc-navigation-menu-horizontal::before {
+  content: $nuc-navigation-menu-horizontal;
+}
+
+.nuc-navigation-menu::before {
+  content: $nuc-navigation-menu;
+}
+
+.nuc-password-desktop-approved::before {
+  content: $nuc-password-desktop-approved;
+}
+
+.nuc-phone::before {
+  content: $nuc-phone;
+}
+
+.nuc-programming-hold-code-2::before {
+  content: $nuc-programming-hold-code-2;
+}
+
+.nuc-send-email-2::before {
+  content: $nuc-send-email-2;
+}
+
+.nuc-single-man-actions-laptop-2::before {
+  content: $nuc-single-man-actions-laptop-2;
+}
+
+.nuc-single-man-actions-laptop::before {
+  content: $nuc-single-man-actions-laptop;
+}
+

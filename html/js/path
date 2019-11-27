@@ -1,0 +1,35 @@
+  /*==============================================================*/
+    //background color slider Start
+    /*==============================================================*/
+    var $window = $(window),
+            $body = $('.bg-background-fade'),
+            $panel = $('.color-code');
+    var scroll = $window.scrollTop() + ($window.height() / 2);
+    $panel.each(function () {
+        var $this = $(this);
+        if ($this.position().top <= scroll && $this.position().top + $this.height() > scroll) {
+            $body.removeClass(function (index, css) {
+                return (css.match(/(^|\s)color-\S+/g) || []).join(' ');
+            });
+            $body.addClass('color-' + $(this).data('color'));
+        }
+    });
+    var pathname = window.location.pathname;
+    console.log('pathname :', pathname);
+    // if (pathname==='/index.html')
+    /* ===================================
+     sticky nav Start
+     ====================================== */
+    var headerHeight = $('nav').outerHeight();
+    if (!$('header').hasClass('no-sticky') && pathname==='/index.html') {
+        if ($(document).scrollTop() >= headerHeight) {
+            $('header').addClass('sticky');
+
+        } else if ($(document).scrollTop() <= headerHeight) {
+            $('header').removeClass('sticky');
+            setTimeout(function () {
+                setPageTitleSpace();
+            }, 500);
+        }
+        SetMegamenuPosition();
+    }

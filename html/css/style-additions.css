@@ -1,0 +1,356 @@
+body {
+  min-width: 320px;
+}
+
+.bg-deep-accent {
+  background-color: #05b2d1;
+}
+.hight-80vh {
+  height: 80vh;
+}
+
+.nav-item > a.nav-link.nav-active {
+  color: white !important;
+  opacity: 1 !important;
+}
+
+.feature-box-8 {
+  padding: 18% 0;
+  min-height: 464px;
+}
+.feature-box-8:hover .icon-round-small {
+  background: #fff;
+  color: #05b2d1 !important;
+}
+
+.mug-shot {
+  border-radius: 50%;
+  max-width: 300px;
+}
+.video-mail-background {
+  position: absolute;
+  min-height: 100%;
+  width: auto;
+  top: 0;
+  left: -50%;
+  background: rgba(67, 67, 67, 0.5);
+}
+#expertise .strln-icon {
+  font-size: 38px;
+  line-height: 80px;
+}
+
+nav a {
+  height: 100%;
+  align-items: center;
+}
+
+nav a img {
+  max-height: 40px;
+}
+
+.header {
+  width: 100%;
+  max-width: 1170px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.nav-link {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.text-panel > p,
+p {
+  font-size: 14px;
+  margin-bottom: 20px;
+  line-height: 20px;
+}
+
+li {
+  line-height: 20px;
+}
+
+ul.tags {
+  margin-block-end: 0;
+  padding: 20px 0;
+  align-items: baseline;
+}
+
+.tags > li {
+  font-size: 13px;
+  max-height: 26px;
+  list-style: none;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  padding: 0.2em 0.5em;
+  background-color: #65949c;
+  color: rgb(255, 255, 255);
+  border-radius: 12px;
+}
+
+.tags > li:not(:last-child) {
+  margin-right: 1em;
+}
+
+.page-title {
+  padding: 70px 30px 0;
+}
+.page-title h1 {
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 54px;
+  color: #05b2d1;
+  margin: 18px auto;
+}
+
+figure {
+  position: relative;
+}
+
+.container-full {
+  width: 100vw;
+  left: 0;
+}
+figure > .image-hover {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background: black;
+}
+
+figure > .white-circle {
+  background-color: rgb(0, 0, 0);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  z-index: 100;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+  opacity: 0;
+}
+
+figure:hover .white-circle {
+  opacity: 0.5;
+}
+
+.cover-badge {
+  position: absolute;
+  width: 50px;
+  z-index: 20;
+  right: 10px;
+  top: 10px;
+}
+
+/* counter */
+.feature-box-5 .strln-icon {
+  font-size: 42px;
+}
+
+/*  contact form */
+.image-mail-background {
+  object-fit: cover;
+  height: 100%;
+}
+
+.contact-form .strln-icon {
+  font-size: 42px;
+}
+
+.strln-zoom-in-1 {
+  font-size: 28px;
+}
+
+/* Ruckus */
+
+.ruckus-content {
+  position: absolute;
+  top: 123px;
+  left: 122px;
+  height: 460px;
+  overflow-y: scroll;
+}
+
+.iphone-container {
+  margin-top: -36px;
+}
+
+/* buttons */
+
+a.btn-link-github {
+  width: 144px;
+  height: 36px;
+  background: transparent url("../images/my-images/buttons/Github-Reg.svg")
+    center top no-repeat;
+}
+
+a.btn-link-github:hover {
+  background: transparent url("../images/my-images/buttons/Github-Hover.svg")
+    center top no-repeat;
+}
+
+a.btn-link-minesweeper {
+  width: 144px;
+  height: 36px;
+  background: transparent url("../images/my-images/buttons/Minesweeper-reg.svg")
+    center top no-repeat;
+}
+
+a.btn-link-minesweeper:hover {
+  background: transparent
+    url("../images/my-images/buttons/Minesweeper-Hover.svg") center top
+    no-repeat;
+}
+
+a.btn-link-pictogram {
+  width: 144px;
+  height: 36px;
+  background: transparent url("../images/my-images/buttons/Pictogram-reg.svg")
+    center top no-repeat;
+}
+
+a.btn-link-pictogram:hover {
+  background: transparent url("../images/my-images/buttons/Pictogram-Hover.svg")
+    center top no-repeat;
+}
+a.btn-link-saladbuzz {
+  width: 144px;
+  height: 36px;
+  background: transparent url("../images/my-images/buttons/Salad-Buzz-App.svg")
+    center top no-repeat;
+}
+
+a.btn-link-saladbuzz:hover {
+  background: transparent url("../images/my-images/buttons//Salad-Buzz-App-hover.svg")
+    center top no-repeat;
+}
+
+.btn-back{
+  display: inline-block;
+  width: 0.6em;
+  height: 24px;
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-image: url(../images/my-images/buttons/left-arrow.svg);
+  margin-right: -4px;
+ 
+}
+.btn-back:hover{
+  background-image: url(../images/my-images/buttons/left-arrow-hover.svg);
+}
+
+@media screen and (max-width: 992px) {
+  .feature-box-8 {
+    padding: 10% 0;
+    min-height: 410px;
+  }
+  ul.navbar-nav {
+    background: rgb(34, 34, 34);
+    text-align: center;
+  }
+
+  .inner-link {
+    line-height: 42px;
+  }
+
+  .about-copy {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  .ruckus-content {
+    top: 0;
+    left: 0;
+    position: static;
+    text-align: right;
+    margin: 20px auto;
+  }
+  .image-mail-background {
+    height: 150px;
+    width: 100%;
+  }
+
+  footer > ul {
+    margin: 0 auto !important;
+  }
+
+  .iphone-container {
+    margin-top: 0px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  body,
+  p {
+    font-size: 15px !important;
+    line-height: 20px;
+  }
+
+  .about-copy {
+    text-align: center;
+    max-width: 600px;
+    margin: 20px auto;
+  }
+  .feature-box-8 {
+    padding: 3% 0;
+    min-height: initial;
+  }
+
+  .hover-option7 .grid-item figcaption {
+    bottom: 0;
+    opacity: 0.9;
+    background: white;
+  }
+
+  .hover-option7 .grid-item figure:hover figcaption {
+    opacity: 1;
+  }
+
+  .hover-option7 .grid-item figure p {
+    color: #232323;
+    font-size: 14px;
+    text-transform: lowercase;
+  }
+
+  .hover-option7 .grid-item figure:hover img {
+    top: 0px;
+  }
+
+  .page-title {
+    padding: 50px 0 16px;
+  }
+  .page-title h1 {
+    font-size: 32px;
+    margin: 12px 0 12px 0;
+  }
+  .ruckus-content {
+    top: 0;
+    left: 0;
+    position: static;
+    text-align: center;
+    width: 100%;
+  }
+  ul.tags {
+    padding: 0 0;
+  }
+  .tags > li {
+    margin-top: 0px;
+    margin-bottom: 6px;
+  }
+  .strln-038-github {
+    top: 6px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .btn-link-secondary-override,
+  a.btn-link-override {
+  }
+}
